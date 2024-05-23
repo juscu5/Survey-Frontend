@@ -1,0 +1,11 @@
+.true{
+    opacity: 1;
+    transition: opacity 0.50s ease-in-out;
+}
+.false{
+    opacity: 0;
+    visibility: hidden;
+    .delete{
+        display: none;
+    }
+}

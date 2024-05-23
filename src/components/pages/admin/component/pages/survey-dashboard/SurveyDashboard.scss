@@ -1,0 +1,17 @@
+.surveyDashboard{
+    margin: 40px;
+    padding-top: 50px;
+    .box{
+        height: 100%;
+        .headSubtitle{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .image img {
+            margin-left: 40%;
+            height: 180px;
+            display: block;
+            width: auto;
+        }
+    }
+}

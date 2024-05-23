@@ -1,0 +1,62 @@
+{
+  "name": "survey-tool",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "CTSS-Survey",
+  "dependencies": {
+    "@material-table/core": "^4.3.36",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^17.0.40",
+    "axios": "^0.26.1",
+    "bulma": "^0.9.3",
+    "formik": "^2.2.9",
+    "node": "^16.17.0",
+    "node-sass": "^7.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-loader-spinner": "^6.0.0-0",
+    "react-redux": "^7.2.6",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "react-simple-star-rating": "^4.0.5",
+    "recharts": "^2.1.9",
+    "redux": "^4.1.2",
+    "sass": "^1.54.8",
+    "uuidv4": "^6.2.13",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@redux-devtools/core": "^3.11.0"
+  }
+}

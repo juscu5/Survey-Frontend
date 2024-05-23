@@ -1,0 +1,84 @@
+.reactionBarSelection{ 
+    .columns{
+        .column{
+            margin-left: 5px;
+            margin-right: 10px;
+            margin-top: 6px;
+            .labelRadio{
+                width: 75px;
+                height: auto;
+                display: flex;
+                .radio{
+                    display: none;
+                    height: auto;
+                    .smileyProperty{
+                        display: flex;
+                        width: auto;
+                        height: auto;
+                    }
+                }
+            }
+            #exDis:checked ~ .buttonSmiley5{
+                background-color: #f72c2cec;
+                border-radius: 50px;
+                height: 75px;
+            }
+            #dis:checked ~ .buttonSmiley4{
+                background-color: #ff8800;
+                border-radius: 50px;
+                height: 75px;
+            }
+            #neu:checked ~ .buttonSmiley3{
+                background-color: #eeff01;
+                border-radius: 50px;
+                height: 75px;
+            }
+            #sat:checked ~ .buttonSmiley2{
+                background-color: rgb(186, 255, 74);
+                border-radius: 50px;
+                height: 75px;
+            }
+            #exSat:checked ~ .buttonSmiley1{
+                background-color: #3af700;
+                border-radius: 50px;
+                height: 75px;
+            }
+
+            .buttonSmiley5:hover{
+                background-color: #f72c2cec;
+                border-radius: 50px;
+                height: 75px;
+                transition: background-color 0.3s;
+                cursor: pointer;
+            }
+            .buttonSmiley4:hover{
+                background-color: #ff8800;
+                border-radius: 50px;
+                height: 75px;
+                transition: background-color 0.3s;
+                cursor: pointer;
+            }
+            .buttonSmiley3:hover{
+                background-color: #eeff01;
+                border-radius: 50px;
+                height: 75px;
+                transition: background-color 0.3s;
+                cursor: pointer;
+            }
+            .buttonSmiley2:hover{
+                background-color: rgb(186, 255, 74);
+                border-radius: 50px;
+                height: 75px;
+                transition: background-color 0.3s;
+                cursor: pointer;
+            }
+            .buttonSmiley1:hover{
+                background-color: #3af700;
+                border-radius: 50px;
+                height: 75px;
+                transition: background-color 0.3s;
+                cursor: pointer;
+            }
+        }
+    }
+}

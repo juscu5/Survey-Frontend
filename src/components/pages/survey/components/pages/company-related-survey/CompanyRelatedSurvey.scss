@@ -1,0 +1,86 @@
+.companyRelatedSurvey{
+    text-align: center;
+    .headTitle{
+        font-size: 60px;
+        color: #7a0096;
+        font-weight: 500;
+        font-family: Verdana;
+    }
+    .companyRelatedSurveyContent{
+        padding-left:300px;
+        padding-right: 300px;
+        .questions{
+            font-size: 1.75rem;
+            color: #494e58;
+            font-weight: 600;
+            line-height: 1.5;
+            margin: 70px;
+            margin-left: 200px;
+            margin-right: 200px;
+            opacity: 1;
+            transition: opacity .25s ease-in-out;
+            div:disabled{
+                display: none;
+            }
+            .column{
+                .reactionBar{
+                    display: flex;
+                    justify-content: center;
+                    opacity: 1;
+                    transition: opacity .25s ease-in-out;
+                }
+                .labelED{
+                    color: #e20505;
+                    opacity: 1;
+                    transition: opacity .25s ease-in-out;
+                    margin-right: 50px;
+                    margin-top: 6px;
+                    font-size: 1.5rem;
+                }
+                .labelES{
+                    color: #2fad09;
+                    opacity: 1;
+                    transition: opacity .25s ease-in-out;
+                    margin-left: 50px;
+                    margin-top: 6px;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .disable{
+            font-size: 1.75rem;
+            color: #494e58;
+            font-weight: 600;
+            line-height: 1.5;
+            margin: 70px;
+            margin-left: 200px;
+            margin-right: 200px;
+            pointer-events: none;
+            opacity: 0.5;
+            div:disabled{
+                display: none;
+            }
+            .column{
+                .reactionBar{
+                    display: flex;
+                    justify-content: center;
+                    opacity: 0.5;
+                }
+                .labelED{
+                    color: #e20505;
+                    opacity: 0.5;
+                    margin-right: 50px;
+                    margin-top: 6px;
+                    font-size: 1.5rem;
+                }
+                .labelES{
+                    color: #2fad09;
+                    opacity: 0.5;
+                    margin-left: 50px;
+                    margin-top: 6px;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

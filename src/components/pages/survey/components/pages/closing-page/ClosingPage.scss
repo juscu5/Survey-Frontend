@@ -1,0 +1,27 @@
+.closingPage{
+    text-align: center;
+    padding-top: 220px;
+    .closingPageContent{
+        .headTitle{
+            font-size: 90px;
+            color: #7a0096;
+            font-weight: 400;
+            strong{
+                font-size: 140px;
+                color: #f90085;
+                font-weight: 700;
+            }
+        }
+        .headSubtitle{
+            margin-top: -25px;
+            font-size: 50px;
+            color:#7a0096;
+            margin-left: 20px;
+            margin-right: 50px;
+            font-weight: 350;
+        }
+    }
+    .surveyFooter{
+        padding-bottom: 3%;
+    }
+}

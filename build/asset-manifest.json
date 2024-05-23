@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CTSS-Survey/static/css/main.b50360fd.css",
+    "main.js": "/CTSS-Survey/static/js/main.30027b10.js",
+    "static/js/787.af69996a.chunk.js": "/CTSS-Survey/static/js/787.af69996a.chunk.js",
+    "static/media/homepagefirst.png": "/CTSS-Survey/static/media/homepagefirst.d899f2ec109fcca895bc.png",
+    "static/media/homepage.png": "/CTSS-Survey/static/media/homepage.d982335b99d085972e57.png",
+    "static/media/logoSurvey.png": "/CTSS-Survey/static/media/logoSurvey.da0aa410c11c4676f224.png",
+    "static/media/TPhomepage2nd.png": "/CTSS-Survey/static/media/TPhomepage2nd.a779816a58d140189781.png",
+    "static/media/wfmlogo.png": "/CTSS-Survey/static/media/wfmlogo.58067f703804979616d5.png",
+    "static/media/female.png": "/CTSS-Survey/static/media/female.60461b33fc90792db8f0.png",
+    "static/media/barclogo.svg": "/CTSS-Survey/static/media/barclogo.e1da769595681459e9f1b95421cce3c2.svg",
+    "static/media/twitter-1.svg": "/CTSS-Survey/static/media/twitter-1.b30f854bb98c4ed26fc34bcdd1106955.svg",
+    "static/media/instagram-1.svg": "/CTSS-Survey/static/media/instagram-1.5b8893cf5b8367198bca21f25aa567f0.svg",
+    "index.html": "/CTSS-Survey/index.html",
+    "static/media/linkedin-1.svg": "/CTSS-Survey/static/media/linkedin-1.2b966215c7fc52da9a380ff691b38f5a.svg",
+    "static/media/facebook-1-1.svg": "/CTSS-Survey/static/media/facebook-1-1.bf087a2f5321503382b3672d2e99fdf7.svg",
+    "main.b50360fd.css.map": "/CTSS-Survey/static/css/main.b50360fd.css.map",
+    "main.30027b10.js.map": "/CTSS-Survey/static/js/main.30027b10.js.map",
+    "787.af69996a.chunk.js.map": "/CTSS-Survey/static/js/787.af69996a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b50360fd.css",
+    "static/js/main.30027b10.js"
+  ]
+}

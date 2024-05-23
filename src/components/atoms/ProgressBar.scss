@@ -1,0 +1,17 @@
+.progressBar{
+    padding: 4%;
+    background-color: #f9f9f9;
+    .is-title{
+      color: #4a4a4a;
+      font-size: 1.50rem;
+      font-weight: 500;
+      line-height: 1.0
+    }
+    .is-progress{
+      margin-top: 6px;
+      .progress.is-tp::-webkit-progress-value {
+        transition: all 0.5s ease;
+        background-color: #57e657;
+      }
+    }
+}

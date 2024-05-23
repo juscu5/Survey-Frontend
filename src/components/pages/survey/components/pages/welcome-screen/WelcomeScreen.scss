@@ -1,0 +1,71 @@
+.WelcomeScreen{
+    text-align: left;
+    .titleSection{
+        .forTitle{
+            flex-grow: 1;
+            flex-shrink: 0;
+            padding: 5rem 10rem;
+        }
+        .forButton{
+            flex-grow: 1;
+            flex-shrink: 0;
+            padding: 1rem 2rem;
+        }
+        .logo{
+            margin: 3%;
+            margin-left: 11%;
+            .imgTplogo{
+                width: 230px;
+                margin: 2%;
+            }
+            .imgBarcLogo{
+                width: 120px;
+                margin: 2%;
+            }
+        }
+    }
+    .imageSection{
+        .img{
+            margin-left: -50px;
+            height: 800px;
+            width: auto;
+        }
+    }
+    @media only screen and (max-width: 1800px){
+        .titleSection{
+            position: absolute;
+            .headTitle{
+                font-size: 90px;
+            }
+            .headSubtitle{
+                font-size: 21px;
+            }
+            .forTitle{
+                flex-grow: 1;
+                flex-shrink: 0;
+                padding: 5rem 10rem;
+            }
+            .forButton{
+                flex-grow: 1;
+                flex-shrink: 0;
+                padding: 1rem 2rem;
+            }
+            .logo{
+                margin: 3%;
+                .imgTplogo{
+                    width: 25%;
+                    margin: 2%;
+                }
+                .imgBarcLogo{
+                    width: 12%;
+                    margin: 2%;
+                }
+            }
+        }
+        .imageSection{
+            .img{
+                display: none;
+            }
+        }
+    }
+}

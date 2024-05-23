@@ -1,0 +1,43 @@
+.finishSurvey{
+    margin-top: -100px;
+    overflow: hidden;
+    margin-bottom: -150px;
+
+    .messageText{
+        .headSubtitle{
+            font-size: 40px;
+            font-style: italic;
+            color:#707070;
+        }
+    }
+    
+    .ratingArea{
+        margin:20%;
+        margin-top: 0;
+        margin-bottom: 0;
+        .titleFb{
+            text-align: left;
+            padding-top: 3.5%;
+            padding-bottom: 0;
+        }
+        .ratingFb{
+            margin-left: 40%;
+            padding-top: 3%;
+            padding-bottom: 0;
+        }
+    }
+
+    .commentArea{
+        margin: 20.5%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .infoArea{
+        margin: 20.5%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .surveyFooter{
+        padding-bottom: 3%;
+    }
+}
